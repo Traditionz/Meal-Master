@@ -1,0 +1,86 @@
+<!-- HTML: Simple Noninteractive Chessboard Layout -->
+<!-- Link: -->
+
+<html>
+<b>Chess Board</b>
+<table>
+<table border="1px" height=800 width=800> 
+<tr>
+<td height=”100px” width=”100px" bgcolor=#FFA500 align="center" style="font-size:70px;"> &#9820; </td>
+<td height=”100px” width=”100px” bgcolor=#25383C align="center" style="font-size:70px;"> &#9822; </td>
+<td height=”100px” width=”100px” bgcolor=#FFA500 align="center" style="font-size:70px;"> &#9821; </td>
+<td height=”100px” width=”100px” bgcolor=#25383C align="center" style="font-size:70px;"> &#9819; </td>
+<td height=”100px” width=”100px” bgcolor=#FFA500 align="center" style="font-size:70px;"> &#9818; </td>
+<td height=”100px” width=”100px” bgcolor=#25383C align="center" style="font-size:70px;"> &#9821; </td>
+<td height=”100px” width=”100px” bgcolor=#FFA500 align="center" style="font-size:70px;"> &#9822; </td>
+<td height=”100px” width=”100px” bgcolor=#25383C align="center" style="font-size:70px;"> &#9820; </td>
+</tr>
+<tr>
+<td height=”100px” width=”100px” bgcolor=#25383C align="center" style="font-size:70px;"> &#9823; </td>
+<td height=”100px” width=”100px” bgcolor=#FFA500 align="center" style="font-size:70px;"> &#9823; </td>
+<td height=”100px” width=”100px” bgcolor=#25383C align="center" style="font-size:70px;"> &#9823; </td>
+<td height=”100px” width=”100px” bgcolor=#FFA500 align="center" style="font-size:70px;"> &#9823; </td>
+<td height=”100px” width=”100px” bgcolor=#25383C align="center" style="font-size:70px;"> &#9823; </td>
+<td height=”100px” width=”100px” bgcolor=#FFA500 align="center" style="font-size:70px;"> &#9823; </td>
+<td height=”100px” width=”100px” bgcolor=#25383C align="center" style="font-size:70px;"> &#9823; </td>
+<td height=”100px” width=”100px” bgcolor=#FFA500 align="center" style="font-size:70px;"> &#9823; </td>
+</tr>
+<td height=”100px” width=”100px" bgcolor=#FFA500 align="center" style="font-size:75px;"> &#8203 </td>
+<td height=”100px” width=”100px” bgcolor=#25383C align="center" style="font-size:75px;">  </td>
+<td height=”100px” width=”100px” bgcolor=#FFA500 align="center" style="font-size:75px;">  </td>
+<td height=”100px” width=”100px” bgcolor=#25383C align="center" style="font-size:75px;">  </td>
+<td height=”100px” width=”100px” bgcolor=#FFA500 align="center" style="font-size:75px;">  </td>
+<td height=”100px” width=”100px” bgcolor=#25383C align="center" style="font-size:75px;">  </td>
+<td height=”100px” width=”100px” bgcolor=#FFA500 align="center" style="font-size:75px;">  </td>
+<td height=”100px” width=”100px” bgcolor=#25383C align="center" style="font-size:75px;">  </td>
+</tr>
+<tr>
+<td height=”100px” width=”100px” bgcolor=#25383C align="center" style="font-size:75px;"> &#8203; </td>
+<td height=”100px” width=”100px” bgcolor=#FFA500 align="center" style="font-size:75px;">  </td>
+<td height=”100px” width=”100px” bgcolor=#25383C align="center" style="font-size:75px;">  </td>
+<td height=”100px” width=”100px” bgcolor=#FFA500 align="center" style="font-size:75px;">  </td>
+<td height=”100px” width=”100px” bgcolor=#25383C align="center" style="font-size:75px;">  </td>
+<td height=”100px” width=”100px” bgcolor=#FFA500 align="center" style="font-size:75px;">  </td>
+<td height=”100px” width=”100px” bgcolor=#25383C align="center" style="font-size:75px;">  </td>
+<td height=”100px” width=”100px” bgcolor=#FFA500 align="center" style="font-size:75px;">  </td>
+</tr>
+<td height=”100px” width=”100px" bgcolor=#FFA500 align="center" style="font-size:75px;">  &#8203</td>
+<td height=”100px” width=”100px” bgcolor=#25383C align="center" style="font-size:75px;">  </td>
+<td height=”100px” width=”100px” bgcolor=#FFA500 align="center" style="font-size:75px;">  </td>
+<td height=”100px” width=”100px” bgcolor=#25383C align="center" style="font-size:75px;">  </td>
+<td height=”100px” width=”100px” bgcolor=#FFA500 align="center" style="font-size:75px;">  </td>
+<td height=”100px” width=”100px” bgcolor=#25383C align="center" style="font-size:75px;">  </td>
+<td height=”100px” width=”100px” bgcolor=#FFA500 align="center" style="font-size:75px;"> </td>
+<td height=”100px” width=”100px” bgcolor=#25383C align="center" style="font-size:75px;"></td>
+</tr>
+<tr>
+<td height=”100px” width=”100px” bgcolor=#25383C align="center" style="font-size:75px;"> &#8203; </td>
+<td height=”100px” width=”100px” bgcolor=#FFA500 align="center" style="font-size:75px;">  </td>
+<td height=”100px” width=”100px” bgcolor=#25383C align="center" style="font-size:75px;">  </td>
+<td height=”100px” width=”100px” bgcolor=#FFA500 align="center" style="font-size:75px;">  </td>
+<td height=”100px” width=”100px” bgcolor=#25383C align="center" style="font-size:75px;">  </td>
+<td height=”100px” width=”100px” bgcolor=#FFA500 align="center" style="font-size:75px;">  </td>
+<td height=”100px” width=”100px” bgcolor=#25383C align="center" style="font-size:75px;">  </td>
+<td height=”100px” width=”100px” bgcolor=#FFA500 align="center" style="font-size:75px;">  </td>
+</tr>
+<tr>
+<td height=”100px” width=”100px" bgcolor=#FFA500 align="center" style="font-size:70px;"> &#9817; </td>
+<td height=”100px” width=”100px” bgcolor=#25383C align="center" style="font-size:70px;"> &#9817; </td>
+<td height=”100px” width=”100px” bgcolor=#FFA500 align="center" style="font-size:70px;"> &#9817; </td>
+<td height=”100px” width=”100px” bgcolor=#25383C align="center" style="font-size:70px;"> &#9817; </td>
+<td height=”100px” width=”100px” bgcolor=#FFA500 align="center" style="font-size:70px;"> &#9817; </td>
+<td height=”100px” width=”100px” bgcolor=#25383C align="center" style="font-size:70px;"> &#9817; </td>
+<td height=”100px” width=”100px” bgcolor=#FFA500 align="center" style="font-size:70px;"> &#9817; </td>
+<td height=”100px” width=”100px” bgcolor=#25383C align="center" style="font-size:70px;"> &#9817; </td>
+</tr>
+<tr>
+<td height=”100px” width=”100px” bgcolor=#25383C align="center" style="font-size:70px;"> &#9814; </td>
+<td height=”100px” width=”100px” bgcolor=#FFA500 align="center" style="font-size:70px;"> &#9816; </td>
+<td height=”100px” width=”100px” bgcolor=#25383C align="center" style="font-size:70px;"> &#9815; </td>
+<td height=”100px” width=”100px” bgcolor=#FFA500 align="center" style="font-size:70px;"> &#9813; </td>
+<td height=”100px” width=”100px” bgcolor=#25383C align="center" style="font-size:70px;"> &#9812; </td>
+<td height=”100px” width=”100px” bgcolor=#FFA500 align="center" style="font-size:70px;"> &#9815; </td>
+<td height=”100px” width=”100px” bgcolor=#25383C align="center" style="font-size:70px;"> &#9816; </td>
+<td height=”100px” width=”100px” bgcolor=#FFA500 align="center" style="font-size:70px;"> &#9814; </td>
+</tr>
+</html>
