@@ -1,0 +1,69 @@
+<html>
+<center>
+
+	<head>
+	<h1><b>Calculator: The eclipse Umbra <br>(Assuming that the Planet has a flat surface)</b></h1>
+	<th>Enter the dimesions of the celestial bodies and distances between them in kilometers below. Keep <b>units</b> consistent. Don't include units below.</th>
+		<script>
+		
+		 var dos;
+		 var dom;
+		 var dop;
+		 var ptm;
+		 var pts;
+		 var ros;
+		 var rom;
+		 var rop;
+		 var stm;
+		 var x;
+		 var umbra;
+		 
+		 function cal() {
+			document.getElementById('answer').value = "";
+			dos = Number(document.getElementById('s1').value);
+			dom = Number(document.getElementById('m1').value);
+			dop = Number(document.getElementById('p1').value);
+			ptm = Number(document.getElementById('pm').value);
+			pts = Number(document.getElementById('ps').value);
+			ros = dos / 2;
+			rom = dom / 2;
+			rop = dop / 2;
+		 
+			stm = pts - ptm;
+			x = (rom*stm)/(ros-rom);
+			umbra = 2*((ros)*(rop-ptm+x)/(stm+x));
+		 }
+		 
+		 function z() {
+			cal();
+			if (ptm - rop > x) {
+				document.getElementById('answer').value = "The eclipse is annular, therefore the umbra diameter cannot be calculated.";
+			}
+			else if (ptm - rop <= x) {
+				document.getElementById('answer').value = umbra + "km";
+			}
+		 }
+		
+		 </script>
+	</head>
+	
+	<center>
+	<body>
+		<h4>Diameter of the Star:</h3>
+		<textarea rows="2" cols="30" id="s1"></textarea>
+		<h4>Diameter of the Moon:</h3>
+		<textarea rows="2" cols="30" id="m1"></textarea>
+		<h4>Diameter of the Planet:</h3></h3>
+		<textarea rows="2" cols="30" id="p1"></textarea>
+		<h4>Distance from Planet to Star:</h3>
+		<textarea rows="2" cols="30" id="ps"></textarea>
+		<h4>Distance from Planet to Moon:</h3>
+		<textarea rows="2" cols="30" id="pm"></textarea>
+		<br>
+		<br>
+		<button onclick="z()">Calculate!</button>
+		<br>
+		<h2>From the given dimensions, the umbra diameter of the eclipse is:</h2>
+		<textarea id="answer" rows="3" cols="40"></textarea>
+	</body>
+	</center>

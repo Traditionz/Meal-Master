@@ -1,0 +1,113 @@
+<html>
+	<head>
+	<script type = "text/javascript">
+		var v = 1;
+		var h = 1;
+		var x = 1;
+		var von = false;
+		var vdirection = "wrong";
+		var hon= false;
+		var hdirection = "correct";
+		
+		function northwest() {
+			h = 0;
+			v = 2;
+		}
+		function north() {
+			h = 1;
+			v = 2;
+		}
+		function northeast() {
+			h = 2;
+			v = 2;
+		}
+		function west() {
+			h = 0;
+			v = 1;
+		}
+		function center() {
+			h = 1;
+			v = 1;
+		}
+		function east() {
+			h = 2;
+			v = 1;
+		}
+		function southwest() {
+			h = 0;
+			v = 0;
+		}
+		function south() {
+			h = 1;
+			v = 0;
+		}
+		function southeast() {
+			h = 2;
+			v = 0;
+		}
+		function vc() {
+		if (x == v) {
+			von = false;
+			vdirection = "Altitude Motor: Off \n";
+		}
+		else if (x < v) {
+			von = true;
+			vdirection = "Altitude Motor: Moves North \n";
+		}
+		else if (x > v) {
+			von = true;
+			vdirection = "Altitude Motor: Moves South \n";
+		}
+		}
+		function hc() {
+		if (x == h) {
+			hon = false;
+			hdirection = "Azimuth Motor: Off \n";
+		}
+		else if (x < h) {
+			hon = true;
+			hdirection = "Azimuth Motor: Moves East \n";
+		}
+		else if (x > h) {
+			hon = true;
+			hdirection = "Azimuth Motor: Moves West \n";
+		}
+		}
+		function go() {
+			document.getElementById('textbox').value = "";
+			vc();
+			hc();
+			document.getElementById('textbox').value += hdirection;
+			document.getElementById('textbox').value += vdirection;
+		}
+	
+	</script>
+	</head>
+	<center>
+	<b>Autoguider</b>
+		<table height=300 width=300 border="1px">
+			<tr>
+			<td height=100 width=100 align="center"> <button onclick="northwest() ; go()">NorthWest</button></td>
+			<td height=100 width=100 align="center"> <button onclick="north() ; go()">North</button></td>
+			<td height=100 width=100 align="center"> <button onclick="northeast() ; go()">NorthEast</button></td>
+			</tr>
+			<tr>
+			<td height=100 width=100 align="center"> <button onclick="west() ; go()">West</button></td>
+			<td height=100 width=100 align="center"> <button onclick="center() ; go()">Center</button></td>
+			<td height=100 width=100 align="center"> <button onclick="east() ; go()">East</button></td>
+			</tr>
+			<tr>
+			<td height=100 width=100 align="center"> <button onclick="southwest() ; go()">SouthWest</button></td>
+			<td height=100 width=100 align="center"> <button onclick="south() ; go()">South</button></td>
+			<td height=100 width=100 align="center"> <button onclick="southeast() ; go()">SouthEast</button></td>
+			</tr>
+				
+		</table>
+		<th align="center">Pick a position and the autoguider will give <br> you the directions to track the object.<br>
+			<textarea id="textbox" align="center" style="height: 50px;" cols="30">
+			</textarea>
+		</th>
+	</center>
+		</body>
+
+</html>

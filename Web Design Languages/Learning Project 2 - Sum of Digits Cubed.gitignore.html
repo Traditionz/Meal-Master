@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<h1><b> Answers to: The sum of the the digits cubed equals to 3-digit numbers. </b></h1>
+    
+	<script>
+    function MyFunction() {
+    var text=document.getElementById("textbox");
+    text.value="doing it";
+    
+	var make = [];
+    for (h=1; h<10;h++) {
+    	for (o=0; o<10;o++) {
+    		for (u=0; u<10;u++) {
+    			var n=100*h+10*o+u;
+    			if (n==(Math.pow(h,3)+Math.pow(o,3)+Math.pow(u,3))) {
+   				 make.push(n);
+                 }
+    		}
+    	}
+    }
+    
+    text.value=make;
+    
+    }
+    
+    </script>
+</head>
+<br>
+<body>
+<textarea id="textbox"></textarea>
+<button type="button" onclick="MyFunction();">Show me the answers!</button>
+</body>
+<br>
+</html>
+

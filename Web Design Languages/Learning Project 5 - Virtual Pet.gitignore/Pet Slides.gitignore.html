@@ -1,0 +1,46 @@
+<html>
+<center>
+	<head>
+	<h1>Pet Chimchar</h1>
+		<script>
+		var a = 0;
+		var images = [
+			'default.jpg',
+			'happy.jpg',
+			'sad.jpg',
+			'sleepy.jpg',
+			'angry.jpg',
+			'scared.jpg',
+		];
+		var states = [
+			"Normal",
+			"Happy",
+			"Sad",
+			"Sleepy",
+			"Angry",
+			"Scared",
+		];
+		
+		function go() {
+		if(a < images.length - 1) {
+			a++;
+		}
+		else {
+			a = 0;
+		}
+		document.getElementById("boy").src = images[a];
+		document.getElementById("here").innerHTML = states[a];
+		}
+		</script>
+	</head>
+	
+	<body>
+	<img src='default.jpg' id='boy' height='400px' width='340px'>
+	<br>
+	<b id='here'>Normal</b>
+	<br>
+	<button onclick="go()">Change Mood!</button>
+	</body>
+	
+	</center>
+</html>
